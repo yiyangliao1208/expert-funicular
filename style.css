@@ -1,5 +1,33 @@
-h1{
-    color: rgb(56, 19, 90);
+
+* containter {
+    margin: 0;
+    padding: 50;
+    box-sizing: border-box;}
+
+    body {
+        height: 100%;
+        }
+        body {
+        min-height: 100vh;
+        background-color: #FFE4D6;
+        }
+        main, header, footer {
+            padding: 20px;
+            border: 1px solid #00000000;
+            color: #141414;
+            padding: 100;
+            }
+            
+            header,footer {
+            height: 20vh;
+            }
+            main {
+            height: 60vh;
+            background-color: #FACBEA;
+            }
+            
+            h1{
+    color: #B0578D;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 
@@ -17,17 +45,17 @@ main, header, footer {
 }
 
 body {
-    padding: 40px;
+    padding: 200px;
     border: 2px 
-    
-    
-}
+    }
 
 img{
     max-width: 50%;
-    max-height: 50%
-    border: 2px 
-    text-align: center
+    max-height: 50%;
+    border: 2px;
+    text-align: center;
+    height, footer: 20vh;
+    
   
     }
 
@@ -37,3 +65,5 @@ img{
         margin-right: auto;
         width: 50%;
       }
+
+     
